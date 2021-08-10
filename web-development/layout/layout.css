@@ -1,0 +1,37 @@
+#parent {
+  background-color: red;
+  height: 100vh;
+}
+#top {
+  background-color: blue;
+  height: 50px;
+}
+#bottom {
+  background-color: green;
+  height: 200px;
+}
+#left {
+  float: left;
+  width: 30vw;
+  background-color: brown;
+  height: 50vh;
+}
+#middle {
+  float: left;
+  width: 30vw;
+  background-color: purple;
+  height: 50vh;
+}
+#right {
+  float: left;
+  width: 30vw;
+  background-color: mediumaquamarine;
+  height: 50vh;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#mountains {
+  height: 200px;
+}

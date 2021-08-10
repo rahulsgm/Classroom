@@ -1,0 +1,44 @@
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+table,
+th,
+td {
+  border: 2px solid chocolate;
+  color: white;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  text-align: center;
+}
+table {
+}
+caption {
+  text-align: left;
+  color: black;
+}
+#name,
+#grade,
+#age,
+#school {
+  background-color: black;
+  color: whitesmoke;
+}
+.black {
+  color: black;
+}
+.number {
+  background-color: red;
+}
