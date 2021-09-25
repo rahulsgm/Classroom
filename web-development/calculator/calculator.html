@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <form name="form1">
+      <table class="table1">
+        <tr>
+          <td>
+            <input class="inputbox" type="text" value="" name="inputbox" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <table class="table2">
+                    <tr class="head-row">
+                      <td><input class="AC" type="button" value="AC" onclick="clearInput(form1.inputbox)" /></td>
+                      <td><input class="negNumsposNums" type="button" value="+/-" onclick="convertIntegers(form1.inputbox)" /></td>
+                      <td><input class="percent" type="button" value="%" onclick="percentage(form1.inputbox)" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input class="one" type="button" value="1" onclick="addNumber('1', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="two" type="button" value="2" onclick="addNumber('2', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="three" type="button" value="3" onclick="addNumber('3', form1.inputbox)" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input class="four" type="button" value="4" onclick="addNumber('4', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="five" type="button" value="5" onclick="addNumber('5', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="six" type="button" value="6" onclick="addNumber('6', form1.inputbox)" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input class="seven" type="button" value="7" onclick="addNumber('7', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="eight" type="button" value="8" onclick="addNumber('8', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="nine" type="button" value="9" onclick="addNumber('9', form1.inputbox)" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <input class="zero" type="button" value="0" style="width: 100%" onclick="addNumber('0', form1.inputbox)" />
+                      </td>
+                      <td>
+                        <input class="decimal" type="button" value="." onclick="decimalPoint( form1.inputbox)" />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td style="width: 80">
+                  <table class="table3">
+                    <tr>
+                      <td><input class="division" type="button" value="/" onclick="divide(form1.inputbox)" /></td>
+                    </tr>
+                    <tr>
+                      <td><input class="multiply" type="button" value="x" onclick="multiply(form1.inputbox)" /></td>
+                    </tr>
+                    <tr>
+                      <td><input class="subtract" type="button" value="-" onclick="subtract(form1.inputbox)" /></td>
+                    </tr>
+                    <tr>
+                      <td><input class="addition" type="button" value="+" onclick="add(form1.inputbox)" /></td>
+                    </tr>
+                    <tr>
+                      <td><input class="equalTo" type="button" value="=" onclick="calc(form1.inputbox)" /></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="calculator.js"></script>
+  </body>
+</html>

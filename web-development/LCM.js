@@ -5,4 +5,5 @@ while(a<=i){
         console.log(a)
     }
         a=a+1
+        break
 }

@@ -1,0 +1,44 @@
+table,
+input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  table-layout: fixed;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+/* table1 styles */
+.table1 {
+  background-color: black;
+  border-style: groove;
+  width: 361px;
+  height: 470px;
+}
+
+/* table2 styles */
+.table2 .head-row input {
+  color: black;
+  background: lightgray;
+}
+
+.table2 tbody input {
+  color: white;
+  background: #505050;
+}
+
+/* table3 styles */
+.table3 input {
+  color: white;
+  background: #ff9500;
+}
+
+.inputbox {
+  background: black;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+  font-size: xx-large;
+}
